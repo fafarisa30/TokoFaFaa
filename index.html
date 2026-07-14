@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Fafa - Modern E-Commerce</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA-000000-01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA-000000-01');
+  </script>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <a class="brand" href="#">
+        <span>F</span>
+        <div>
+          <h1>Toko Fafa</h1>
+          <p>Modern Shop Experience</p>
+        </div>
+      </a>
+      <div class="nav-actions">
+        <button id="cartButton">Keranjang</button>
+        <button id="helpButton">Bantuan</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="promo-badge">Promo Bulanan • Diskon hingga 50%</div>
+        <h2>Promo Diskon Bulanan untuk Fashion & Gadget Pilihan</h2>
+        <p>Nikmati harga spesial setiap bulan dengan diskon eksklusif untuk koleksi terbaru. Belanja sekarang dan hemat lebih banyak di Toko Fafa.</p>
+        <div class="hero-buttons">
+          <button class="btn-primary" id="promoButton">Dapatkan Promo</button>
+          <a class="btn-secondary" href="#products">Lihat Promo</a>
+        </div>
+      </div>
+      <div class="hero-preview">
+        <img src="https://cdn.phototourl.com/free/2026-07-14-e5bb0545-cbb7-43eb-a8f6-f5e7782701cc.png" alt="Shop preview" />
+      </div>
+    </section>
+
+    
+    <div id="products" class="products-grid">
+      <article class="product-card" data-id="1" data-name="Sneakers Premium" data-price="599000" data-image="https://i.ebayimg.com/images/g/yAsAAOSwipdjUcuN/s-l640.jpg">
+        <img class="product-image" src="https://i.ebayimg.com/images/g/yAsAAOSwipdjUcuN/s-l640.jpg" alt="Sneakers Premium" />
+        <div class="product-info">
+          <div>
+            <h4>Sneakers Premium</h4>
+            <span>Rp 599.000</span>
+          </div>
+          <span class="badge">Fashion</span>
+        </div>
+        <p class="product-description">Desain trendy dengan bahan premium untuk kenyamanan seharian. Cocok untuk gaya kasual dan acara spesial.</p>
+        <div class="product-meta">
+          <span>Ukuran lengkap</span>
+          <button class="add-cart">Tambah</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="2" data-name="Jam Tangan Pintar" data-price="1299000" data-image="https://2.bp.blogspot.com/-ApLOB1xgejw/WaTR9nUX-sI/AAAAAAAABF8/gqmMt8pz69856Cd_5dGKzgtlhTSqOzCdACPcBGAYYCw/s1600/jam%2Btangan%2Bpintar%2Bsmartwatch%2B%25283%2529.png">
+        <img class="product-image" src="https://2.bp.blogspot.com/-ApLOB1xgejw/WaTR9nUX-sI/AAAAAAAABF8/gqmMt8pz69856Cd_5dGKzgtlhTSqOzCdACPcBGAYYCw/s1600/jam%2Btangan%2Bpintar%2Bsmartwatch%2B%25283%2529.png" alt="Jam Tangan Pintar" />
+        <div class="product-info">
+          <div>
+            <h4>Jam Tangan Pintar</h4>
+            <span>Rp 1.299.000</span>
+          </div>
+          <span class="badge">Gadget</span>
+        </div>
+        <p class="product-description">Fitur kebugaran lengkap, notifikasi pintar, dan desain minimalis untuk penampilan modern.</p>
+        <div class="product-meta">
+          <span>Baterai tahan 48 jam</span>
+          <button class="add-cart">Tambah</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="3" data-name="Backpack Urban" data-price="389000" data-image="https://tse1.mm.bing.net/th/id/OIP.0L-qwzTXnah0UMnp-UHf1AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <img class="product-image" src="https://tse1.mm.bing.net/th/id/OIP.0L-qwzTXnah0UMnp-UHf1AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Backpack Urban" />
+        <div class="product-info">
+          <div>
+            <h4>Backpack Urban</h4>
+            <span>Rp 389.000</span>
+          </div>
+          <span class="badge">Aksesori</span>
+        </div>
+        <p class="product-description">Ruang serbaguna, material tahan air, dan desain sleek untuk aktivitas harian serta perjalanan.</p>
+        <div class="product-meta">
+          <span>Kompartemen laptop</span>
+          <button class="add-cart">Tambah</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="4" data-name="Kacamata Sunset" data-price="219000" data-image="https://m.media-amazon.com/images/I/815MR7V2+yL.png">
+        <img class="product-image" src="https://m.media-amazon.com/images/I/815MR7V2+yL.png" alt="Kacamata Sunset" />
+        <div class="product-info">
+          <div>
+            <h4>Kacamata Sunset</h4>
+            <span>Rp 219.000</span>
+          </div>
+          <span class="badge">Lifestyle</span>
+        </div>
+        <p class="product-description">Lensa UV proteksi tinggi dengan bingkai ringan dan tampilan elegan untuk gaya sehari-hari.</p>
+        <div class="product-meta">
+          <span>Anti-silau</span>
+          <button class="add-cart">Tambah</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="5" data-name="Headphone Wireless" data-price="749000" data-image="https://cdn11.bigcommerce.com/s-3kam1hz68o/images/stencil/1024x1024/products/62459/145619/JBLLIVE770__48058.1711561788.jpg?c=1">
+        <img class="product-image" src="https://cdn11.bigcommerce.com/s-3kam1hz68o/images/stencil/1024x1024/products/62459/145619/JBLLIVE770__48058.1711561788.jpg?c=1" alt="Headphone Wireless" />
+        <div class="product-info">
+          <div>
+            <h4>Headphone Wireless</h4>
+            <span>Rp 749.000</span>
+          </div>
+          <span class="badge">Gadget</span>
+        </div>
+        <p class="product-description">Suara jernih dan nyaman dipakai seharian, ideal untuk musik maupun panggilan.</p>
+        <div class="product-meta">
+          <span>Noise cancelling</span>
+          <button class="add-cart">Tambah</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="6" data-name="Jaket Bomber" data-price="459000" data-image="https://down-id.img.susercontent.com/file/id-11134207-7r98s-lyex50dusvrya2">
+        <img class="product-image" src="https://down-id.img.susercontent.com/file/id-11134207-7r98s-lyex50dusvrya2" alt="Jaket Bomber" />
+        <div class="product-info">
+          <div>
+            <h4>Jaket Bomber</h4>
+            <span>Rp 459.000</span>
+          </div>
+          <span class="badge">Fashion</span>
+        </div>
+        <p class="product-description">Jaket bomber ringan dengan detail modern, cocok untuk gaya kasual maupun malam hari.</p>
+        <div class="product-meta">
+          <span>Bahan nyaman</span>
+          <button class="add-cart">Tambah</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="7" data-name="Smartwatch Sport" data-price="899000" data-image="https://i5.walmartimages.com/seo/VIVISTAR-Sports-Smart-Watch-Men-Women-Outdoor-Fitness-Tracker-100-Sport-Modes-Bluetooth-Call-1-96-Full-Touch-Smartwatches-Waterproof-Android-iPhone-G_934a308e-40f1-4788-acda-41a95c4d2de5.13ad7870c84fac52cae3696862a21bd4.jpeg">
+        <img class="product-image" src="https://i5.walmartimages.com/seo/VIVISTAR-Sports-Smart-Watch-Men-Women-Outdoor-Fitness-Tracker-100-Sport-Modes-Bluetooth-Call-1-96-Full-Touch-Smartwatches-Waterproof-Android-iPhone-G_934a308e-40f1-4788-acda-41a95c4d2de5.13ad7870c84fac52cae3696862a21bd4.jpeg" alt="Smartwatch Sport" />
+        <div class="product-info">
+          <div>
+            <h4>Smartwatch Sport</h4>
+            <span>Rp 899.000</span>
+          </div>
+          <span class="badge">Gadget</span>
+        </div>
+        <p class="product-description">Pantau kesehatan dan aktivitas dengan desain sporty yang tahan air dan akurat.</p>
+        <div class="product-meta">
+          <span>GPS built-in</span>
+          <button class="add-cart">Tambah</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-id="8" data-name="Sepatu Lari" data-price="329000" data-image="https://lh7-us.googleusercontent.com/docsz/AD_4nXcapHIMY_zPzDVTlqVtkBuT3GQyKkkxCtH_mZRz8e6Tr6-0enxONxna1EruqI3E9pQ4uqulqtViOn2SA5aR1oqoqTMSyaf0fs0p8z27WSPofjMMn19WquI1cDdNQ4rbpEq3IPS7t7oUmPxhGX6e1Q?key=4TjIddr05MP1bFMSpy3XuA">
+        <img class="product-image" src="https://lh7-us.googleusercontent.com/docsz/AD_4nXcapHIMY_zPzDVTlqVtkBuT3GQyKkkxCtH_mZRz8e6Tr6-0enxONxna1EruqI3E9pQ4uqulqtViOn2SA5aR1oqoqTMSyaf0fs0p8z27WSPofjMMn19WquI1cDdNQ4rbpEq3IPS7t7oUmPxhGX6e1Q?key=4TjIddr05MP1bFMSpy3XuA" alt="Sepatu Lari" />
+        <div class="product-info">
+          <div>
+            <h4>Sepatu Lari</h4>
+            <span>Rp 329.000</span>
+          </div>
+          <span class="badge">Fitness</span>
+        </div>
+        <p class="product-description">Ringan dan responsif, dirancang untuk kenyamanan maksimal saat berolahraga dan berlari.</p>
+        <div class="product-meta">
+          <span>Sol empuk</span>
+          <button class="add-cart">Tambah</button>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="cart-panel" id="cartPanel">
+    <div class="cart-drawer">
+      <div class="cart-header">
+        <div>
+          <h3>Keranjang Belanja</h3>
+          <p>Lihat item yang sudah kamu pilih.</p>
+        </div>
+        <button class="btn-close" id="closeCart">×</button>
+      </div>
+      <div class="cart-list" id="cartList">
+        <div class="empty-cart" id="emptyCart">Keranjang kosong. Tambahkan produk untuk memulai.</div>
+      </div>
+      <div class="payment-panel" id="paymentPanel">
+        <h4>Bayar Sekarang</h4>
+        <div class="payment-methods" id="paymentMethods">
+          <div class="payment-option selected" data-method="card">
+            <span class="title">Kartu</span>
+            <span class="subtitle">Pembayaran dengan kartu kredit/debit</span>
+          </div>
+          <div class="payment-option" data-method="bank">
+            <span class="title">Bank</span>
+            <span class="subtitle">Transfer antar bank dengan cepat</span>
+          </div>
+          <div class="payment-option" data-method="ewallet">
+            <span class="title">E-Wallet</span>
+            <span class="subtitle">Bayar lewat e-wallet populer</span>
+          </div>
+        </div>
+        <input type="hidden" id="paymentMethod" value="card" />
+        <div class="payment-field">
+          <label for="payerName">Nama Pemesan</label>
+          <input type="text" id="payerName" placeholder="Nama lengkap" />
+        </div>
+        <div class="payment-field">
+          <label for="targetAccountNumber">Nomor Rekening Tujuan</label>
+          <input type="text" id="targetAccountNumber" readonly value="1234 5678 9012 3456" />
+        </div>
+        <div id="cardFields">
+          <div class="payment-field">
+            <label for="cardNumber">Nomor Kartu</label>
+            <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" />
+          </div>
+          <div class="payment-field">
+            <label for="expiryDate">Berlaku Sampai</label>
+            <input type="text" id="expiryDate" placeholder="MM/YY" />
+          </div>
+          <div class="payment-field">
+            <label for="cvv">CVV</label>
+            <input type="password" id="cvv" placeholder="123" />
+          </div>
+        </div>
+        <div id="bankFields">
+          <div class="payment-field">
+            <label for="bankName">Bank</label>
+            <select id="bankName">
+              <option value="">Pilih bank</option>
+              <option value="BCA">BCA</option>
+              <option value="BRI">BRI</option>
+              <option value="Mandiri">Mandiri</option>
+              <option value="BNI">BNI</option>
+            </select>
+          </div>
+          <div class="payment-field">
+            <label for="bankAccount">Nomor Rekening</label>
+            <input type="text" id="bankAccount" placeholder="1234567890" />
+          </div>
+        </div>
+        <div id="ewalletFields">
+          <div class="payment-field">
+            <label for="ewalletProvider">E-Wallet</label>
+            <div class="ewallet-options" id="ewalletOptions">
+              <div class="ewallet-option selected" data-ewallet="Gopay"><span>Gopay</span></div>
+              <div class="ewallet-option" data-ewallet="Ovo"><span>OVO</span></div>
+              <div class="ewallet-option" data-ewallet="Dana"><span>Dana</span></div>
+              <div class="ewallet-option" data-ewallet="ShopeePay"><span>ShopeePay</span></div>
+            </div>
+          </div>
+          <div class="payment-field">
+            <label for="ewalletPhone">Nomor Telepon</label>
+            <input type="text" id="ewalletPhone" placeholder="08xx xxxx xxxx" />
+          </div>
+        </div>
+        <input type="hidden" id="ewalletProvider" value="Gopay" />
+        <div class="payment-actions">
+          <button class="btn-secondary-outline" id="backToCart">Kembali ke Keranjang</button>
+          <button class="checkout-btn" id="confirmPaymentBtn">Bayar Sekarang</button>
+        </div>
+      </div>
+      <div class="cart-footer" id="cartFooter">
+        <div class="cart-total">
+          <span>Total</span>
+          <strong id="cartTotal">Rp 0</strong>
+        </div>
+        <button class="checkout-btn" id="checkoutBtn">Lanjutkan Pembayaran</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="receipt-modal" id="receiptModal">
+    <div class="receipt-card">
+      <div class="receipt-success" id="receiptSuccess"><span>✓</span></div>
+      <div class="receipt-header">
+        <div>
+          <h4>Bukti Checkout</h4>
+          <p>Terima kasih atas pembelian Anda. Simpan bukti ini sebagai referensi.</p>
+        </div>
+        <div class="receipt-badge" id="receiptMethod">E-Wallet</div>
+      </div>
+      <div class="receipt-meta">
+        <span>Nama Pemesan</span>
+        <strong id="receiptName">-</strong>
+      </div>
+      <div class="receipt-account">
+        <span>Nomor Rekening Tujuan</span>
+        <strong id="receiptTarget">1234 5678 9012 3456</strong>
+      </div>
+      <div class="receipt-items" id="receiptItems"></div>
+      <div class="receipt-footer">
+        <div><span>Total Item</span><strong id="receiptCount">0</strong></div>
+        <div><span>Total Bayar</span><strong id="receiptTotal">Rp 0</strong></div>
+      </div>
+      <div class="receipt-actions">
+        <button class="receipt-close" id="closeReceipt">Tutup</button>
+        <button class="receipt-download" id="downloadReceipt">Unduh Bukti</button>
+      </div>
+    </div>
+  </div>
+  <a class="whatsapp-float" href="https://wa.me/6283838717756" target="_blank" rel="noopener noreferrer" title="Chat WhatsApp">
+    <span>WhatsApp</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M20.52 3.48A11.77 11.77 0 0 0 12.07 1C6.45 1 1.95 5.5 1.95 11.12c0 1.93.5 3.8 1.45 5.45L1 23l6.6-1.73a10.94 10.94 0 0 0 4.47.92h.04c5.62 0 10.12-4.5 10.12-10.12 0-2.7-1.05-5.24-2.95-7.09Zm-1.3 11.13c-.11.31-.65.6-1.4 1.03-.75.44-1.38.5-1.71.31-.33-.18-1.03-.38-1.96-.74a7.36 7.36 0 0 1-1.99-1.2 7.63 7.63 0 0 1-1.43-1.78c-.38-.58-.54-1.05-.5-1.43.04-.38.26-.58.55-.75.28-.17.62-.45.93-.68.31-.24.41-.4.62-.61.2-.21.1-.4-.05-.61-.15-.2-.91-2.2-1.25-3.01-.33-.79-.67-.68-.92-.69-.24-.01-.52-.01-.8-.01-.27 0-.7.1-1.07.43-.36.34-1.37 1.34-1.37 3.26 0 1.92 1.4 3.78 1.6 4.04.2.25 2.78 4.25 6.77 5.96.95.41 1.69.66 2.26.85.95.3 1.82.26 2.5.16.76-.12 2.35-.96 2.68-1.88.34-.92.34-1.71.24-1.88Z"/>
+    </svg>
+  </a>
+  <script src="script.js"></script>
+</body>
+</html>
