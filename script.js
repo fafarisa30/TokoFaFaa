@@ -34,15 +34,21 @@ const downloadReceipt = document.getElementById('downloadReceipt');
 const paymentOptions = document.querySelectorAll('.payment-option');
 const ewalletOptions = document.querySelectorAll('.ewallet-option');
 const helpButton = document.getElementById('helpButton');
+const searchInput = document.getElementById('searchInput');
+const categoryFilter = document.getElementById('categoryFilter');
 const promoButton = document.getElementById('promoButton');
 const products = document.querySelectorAll('.product-card');
-const cart = [];
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 function formatRupiah(value) {
   return new Intl.NumberFormat('id-ID', {
     style: 'currency',
     currency: 'IDR'
   }).format(value);
+}
+
+function saveCart() {
+  localStorage.setItem("cart", JSON.stringify(cart));
 }
 
 function updateCart() {
@@ -73,13 +79,19 @@ function updateCart() {
 
 function addToCart(product) {
   const existing = cart.find(item => item.id === product.id);
+
   if (existing) {
-    existing.quantity += 1;
+    existing.quantity++;
   } else {
-    cart.push({ ...product, quantity: 1 });
+    cart.push({
+      ...product,
+      quantity: 1
+    });
   }
+
+  saveCart();
   updateCart();
-  cartPanel.classList.add('active');
+  cartPanel.classList.add("active");
 }
 
 products.forEach(card => {
@@ -255,3 +267,27 @@ function scrollToProducts() {
 }
 
 updateCart();
+
+function filterProducts() {
+  const searchTerm = searchInput.value.toLowerCase().trim();
+  const selectedCategory = categoryFilter.value;
+
+  products.forEach(product => {
+    const name = product.dataset.name.toLowerCase();
+    const category = product.querySelector('.badge').textContent;
+    
+    const matchesSearch = searchTerm === '' || name.includes(searchTerm);
+    const matchesCategory = selectedCategory === 'all' || category === selectedCategory;
+    
+    product.style.display = matchesSearch && matchesCategory ? 'block' : 'none';
+  });
+}
+
+// Event Listeners
+if (searchInput) {
+  searchInput.addEventListener('input', filterProducts);
+}
+
+if (categoryFilter) {
+  categoryFilter.addEventListener('change', filterProducts);
+}
