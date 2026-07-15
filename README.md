@@ -1,6 +1,88 @@
 # Toko Fafa - Modern E-Commerce
 
+## 📖 Business Overview
+
+### Nama Bisnis & Deskripsi
+**Nama Bisnis:** Toko Fafa  
+**Deskripsi:** Toko Fafa adalah platform e-commerce sederhana yang menawarkan produk lokal berkualitas dengan harga terjangkau. Website ini dirancang untuk memberikan pengalaman belanja online yang mudah, cepat, dan aman.
 Proyek ini adalah halaman storefront sederhana untuk sebuah toko online fiksi bernama **Toko Fafa**. Aplikasi dibangun menggunakan HTML, CSS, dan JavaScript murni tanpa framework.
+
+### Value Proposition
+- ✅ **Produk Berkualitas:** Semua produk dipilih dengan standar kualitas tinggi.
+- ✅ **Harga Terjangkau:** Harga kompetitif dengan diskon menarik.
+- ✅ **Pengalaman Belanja Mudah:** Interface modern, checkout cepat, dan dukungan WhatsApp.
+- ✅ **Lokal & Terpercaya:** Mendukung produk lokal Indonesia.
+
+  ### 🎯 Target Market & Segmentasi Pelanggan
+ **Usia**: 18–35 tahun (mahasiswa, young professional) 
+ **Lokasi**: Bandung & sekitarnya (Jabodetabek) 
+ **Minat** : Produk lokal, fashion, lifestyle, belanja online 
+ **Perilaku**: Aktif di media sosial, suka diskon & promo, mobile-first 
+
+### 📊 Analisis Pasar Singkat
+
+**Tren E-Commerce Indonesia:**
+- Pertumbuhan e-commerce Indonesia mencapai **20% per tahun** (2024–2026).
+- **60% transaksi** berasal dari mobile device.
+- Konsumen semakin percaya belanja online dengan metode pembayaran beragam.
+
+**Kompetitor:**
+1. **Tokopedia** - Marketplace besar dengan variasi produk lengkap.
+2. **Shopee** - Fokus pada harga murah & promo flash sale.
+3. **UMKM Lokal** - Toko online kecil dengan produk serupa di Instagram/Tokopedia.
+
+**Keunggulan Toko Fafa:**
+- Fokus pada **produk kurasi** (bukan marketplace massal).
+- **Layanan personal** via WhatsApp.
+- **Checkout sederhana** tanpa perlu registrasi.
+
+### 📦 Strategi Manajemen Produk & Katalog
+| Fashion : Kaos, hoodie, aksesoris = 3 produk 
+| Lifestyle : Tumbler, tote bag = 3 produk 
+| Aksesoris : Gelang, kalung, topi = 2–4 produk 
+| **Total** : **8–10 produk** 
+
+### 💰 Model Bisnis & Revenue Stream
+
+**Model Bisnis:** B2C (Business-to-Consumer) - Penjualan langsung ke konsumen akhir.
+
+**Revenue Stream:**
+- Penjualan produk fisik (margin **30–50%** per produk).
+- Bundling (beli 2 gratis 1, paket hemat).
+- Promo flash sale mingguan.
+
+### 💳 Strategi Harga, Promosi, dan Diskon
+
+| Strategi | Detail |
+|----------|--------|
+| **Harga Normal** | Rp79.000–Rp199.000 |
+| **Diskon Pertama** | 10% untuk pembelian pertama |
+| **Free Shipping** | Minimal belanja Rp150.000 |
+| **Bundling** | Beli 2 produk, diskon 15% |
+
+### 🔒 Rencana SEO, Keamanan, dan Pemeliharaan
+
+**SEO:**
+- Meta tags: `<title>`, `<meta name="description">`, `<meta name="keywords">`.
+- Keyword targeting: "toko online Bandung", "produk lokal murah".
+
+**Keamanan:**
+- Validasi form di sisi klien (JavaScript).
+- HTTPS via GitHub Pages (otomatis).
+
+**Pemeliharaan:**
+- Update produk setiap minggu.
+- Monitoring Google Analytics untuk traffic.
+
+### 📈 Rencana Penggunaan Data Analytics
+
+**Metrik yang Dipantau (Google Analytics):**
+
+| Metrik | Target | Cara Meningkatkan |
+| **Bounce Rate**  < 50% = Optimasi loading speed 
+| **Conversion Rate** > 2% = CTA jelas, checkout sederhana 
+| **Average Order Value**  > Rp150.000 = Upselling, bundling 
+| **Session Duration**  > 2 menit = Konten menarik 
 
 ## Ringkasan
 
@@ -87,7 +169,3 @@ Jika ingin menggunakan server lokal (opsional):
 - Proyek ini tidak menggunakan backend; semua interaksi dilakukan di sisi klien.
 - Keranjang dan checkout bersifat simulasi.
 - File `README.md` ini menjelaskan struktur dan fitur aktual sesuai kode Anda.
-
----
-
-**Toko Fafa** siap dikembangkan lebih lanjut sebagai konsep e-commerce modern sederhana berbasis HTML/CSS/JS.
